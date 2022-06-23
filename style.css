@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* HEADER */
+header{
+    width: 100%;
+}
+.header-top img{
+    padding: 20px;
+    max-width: 17%;
+}
+.header-bottom{
+    padding: 10px 20px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.li-active{
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+    padding-bottom: 5px;
+}
+hr{
+    position: relative;
+    top: -11px;
+    left: 0;
+}
+/* FAQ-CONTAINER */
+.faq-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    padding: 100px 0px;
+}
+/* FAQ */
+h2, h3{
+    padding: 20px 0px;
+    color: #3c4043;
+}
+p, ol li{
+    padding: 10px 0px;
+    font-size: .85rem;
+    line-height: 1.5rem;
+}
+ol{
+    padding: 10px 0px;
+}
+ol li{
+    margin-left: 40px;
+}
